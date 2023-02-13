@@ -1,0 +1,13 @@
+version: '3.5'
+services:
+  frontend:
+     build: .
+     container_name: noteapp
+     ports:
+         - '5173:5173'
+         - '3010:3010'
+     volumes:
+         - .:/NoteApp
+         - ./node_modules :
+
+   

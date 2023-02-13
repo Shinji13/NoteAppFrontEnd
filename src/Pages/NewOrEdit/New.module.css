@@ -1,0 +1,97 @@
+.Form{
+    width:90vw;
+    height:110vh;
+    padding-top:50px ;
+    padding-inline: 5vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:30px;
+}
+
+.Form > .header{
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.Form > .fields{
+    width: 100%;
+    height: fit-content;
+    display: flex ;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+.Form > .fields > .title{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 5px;
+}
+.Form > .fields > .title >span{
+    font-size: large;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.Form > .fields > .title > input{
+    width: 22vw;
+    height: 30px;
+    padding: 16px 3px;
+    border: 1px solid #121212;
+    border-radius: 3px;
+}
+.Form > .fields > .tags{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.Form > .fields > .tags >span{
+    font-size: large;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.Form > textarea{
+    width: 99%;
+    aspect-ratio: 1/1;
+    resize: none;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding: 16px 16px;
+    border: 2px solid #121212;
+    border-radius: 6px;
+    font-size: large;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: #000000;
+}
+.Form > textarea::placeholder{
+    font-size: large;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: rgba(29, 28, 28,0.9);
+}
+.Form > .ActionBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+    align-self: flex-end;
+}
+.Form > .ActionBtns > button,input{
+    width: 10vw;
+    height: 2.2rem;
+    padding: 5px 5px;
+    font-size: clamp(0.5rem,1vw,2rem);
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    box-shadow:2px 2px 1px rgb(18, 18, 18,0.4) ;
+    border-radius: 4px;
+}
+.Form > .ActionBtns > input{
+     background-color: #2473da;
+}
+.Form > .ActionBtns > button{
+    background-color: #abacaf;
+}

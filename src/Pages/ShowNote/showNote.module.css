@@ -1,0 +1,91 @@
+.note{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 5vh;
+    margin-bottom: 20px;
+}
+.note > .firstLayer{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.note > .firstLayer > div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.note > .firstLayer > div:first-child>span{
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.note > .firstLayer > div:first-child> div{
+    display: flex;
+    gap:6px;
+}
+.note > .firstLayer > div:first-child> div > span{
+    width: fit-content;
+    aspect-ratio: 2/1;
+    color: #121212;
+    padding: 3px 8px;
+    background-color: #1288cc;
+    border: 1px solid #121212;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: medium;
+    font-family:Arial, Helvetica, sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.note > .firstLayer > div:last-child{
+    display: flex;
+    align-items: center;
+    gap:14px;
+}
+.note > .firstLayer > div:last-child >button{
+    width: 5vw;
+    aspect-ratio:2/1;
+    font-size: 1rem;
+    font-weight: medium;
+    font-family:Arial, Helvetica, sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #121212;
+    border-radius: 4px;
+    box-shadow:2.5px 2.5px 1px rgb(18, 18, 18,0.4) ;
+}
+.note > .firstLayer > div:last-child >button:first-child{
+    background-color: #1288cc;
+}
+.note > .firstLayer > div:last-child >button:last-child{
+    background-color: #818080;
+}
+.note > .firstLayer > div:last-child >button:nth-child(2){
+    background-color: #b90909;
+}
+.note > .firstLayer > div:last-child >button:first-child:hover{
+    background-color: #8fb7ce;
+}
+.note > .firstLayer > div:last-child >button:last-child:hover{
+    background-color: #c0c0bf;
+}
+.note > .firstLayer > div:last-child >button:nth-child(2):hover{
+    background-color: #b95a5a;
+}
+.note > .secondLayer {
+    width: 80%;
+    font-size: 1rem;
+    font-weight: medium;
+    font-family:Arial, Helvetica, sans-serif ;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}

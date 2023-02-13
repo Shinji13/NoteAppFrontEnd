@@ -1,0 +1,92 @@
+
+.editback{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(183, 201, 201);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.edit{
+    width: 24vw;
+    height: fit-content;
+    padding: 16px 8px;
+    border: 2px solid #121212;
+    border-radius: 16px;
+    box-shadow:2px 2px 1px rgb(18, 18, 18,0.4) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background-color: #ededed;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+}
+.edit > div:first-child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40%;
+}
+.edit > div:first-child >i{
+    color: black;
+    font-weight:bolder;
+    font-size: x-large;
+}
+.edit > div:first-child > span{
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.edit >.Tags{
+     width: 22vw;
+     height: fit-content;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 16px;
+}
+.edit > .Tags > .tag{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+.edit >.Tags >.tag> span{
+    width: 10%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #121212;
+    border-radius:4px;
+}
+.edit >.Tags >.tag>input{
+    width: 90%;
+    height: 30px;
+    box-shadow: none;
+    padding: 3px 3px;
+    border: 2px solid #121212;
+}
+.edit > button:last-child{
+    width: 20%;
+    aspect-ratio: 2/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif ;
+    border: 2px solid #121212;
+    border-radius: 4px;
+    box-shadow:2px 2px 1px rgb(18, 18, 18,0.4) ;
+    background-color: #2473da;
+}

@@ -1,0 +1,15 @@
+button{
+    cursor: pointer;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    list-style-type: none;
+    box-sizing: border-box; 
+}
+body{
+    background-color: #ededed;
+    overflow-x:hidden;
+}
